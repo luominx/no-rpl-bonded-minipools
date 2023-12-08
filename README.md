@@ -14,19 +14,19 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 
 (Note: The specified commission rates are illustrative and not finalized.)
 
-| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | RPL holders | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----------- | ----- |
-| Option 1 | 13%              | 8%              | -13%         | 5%               | -        | Compete with Lido on NRBM commission for NO    |
+| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
+| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option 1 | 13%              | 8%              | -13%         | 5%            | Compete with Lido on NRBM commission for NO    |
 
 
-| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | RPL holders | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----------- | ----- |
-| Option 2 | 10%              | 5%              | -9%         | 5%               | -           | Compete with Lido on rETH APR     |
+| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
+| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option 2 | 10%              | 5%              | -9%         | 5%             | Compete with Lido on rETH APR     |
 
 
-| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | RPL holders | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----------- | ----- |
-| Option 3 | 12%              | 7%              | -9%         | 5%               | -           | A mixture from the above     |
+| Idea     | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
+| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option 3 | 12%              | 7%              | -9%         | 5%             | A mixture from the above     |
 
 #### Additional Protocol Benefits
 - NOs utilizing NRBMs gain enhanced rewards compared to solo stakers, benefiting from community support and additional features, potentially including complimentary DVT.
