@@ -28,13 +28,40 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
 | Option 3 | 12%              | 7%              | -9%         | 5%             | A mixture from the above     |
 
-#### Additional Protocol Benefits
+
+### Option 2 - Improvement for Solo Stakers
+| # minipools | without NRBMs APR | with NRBMs APR (at 5% rETH commission) | Difference |
+| ----------- | ----------------- | -------------- | -----------|
+| 2    `2*16ETH`       | 100% | 105%      | 5%  |
+| 4    `4*8ETH`        | 100% | 115%      | 15% | 
+| 8    `8*4ETH`        | 100% | ca. 135%  | 35% |
+| 16   `16*2ETH`       | 100% | ca. 175%  | 75% |
+
+| # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
+| ----------- | ----------------- | -------------- | -----------|
+| 2    `2*16ETH`       | 100% | 108%      | 8%  |
+| 4    `4*8ETH`        | 100% | 124%      | 24% | 
+| 8    `8*4ETH`        | 100% | ca. 156%  | 46% |
+| 16   `16*2ETH`       | 100% | ca. 220%  | 120% |
+
+### Option 2 - Improvement for RPL bonded Minipool Stakers
+| # minipools | without NRBMs APR | with NRBMs APR | Difference |
+| ----------- | ----------------- | -------------- | -----------|
+| 2    `2*16ETH`       | 115% | 120%      | 5%  |
+| 4    `4*8ETH`        | 142% | 157%      | 15% | 
+| 8    `8*4ETH`        | 191% | ca. 226%  | 35% |
+| 16   `16*2ETH`       | 280% | ca. 355%  | 58% |
+
+
+
+
+### Additional Protocol Benefits
 - NOs utilizing NRBMs gain enhanced rewards compared to solo stakers, benefiting from community support and additional features, potentially including complimentary DVT.
 - This model attracts a distinct segment of NOs who, while not engaging with RPL, seek to leverage Rocket Pool's advantages, accepting a marginally lower APR.
 - Exposure to the system's robustness, community ethos, and perks may encourage these new NOs to eventually transition to conventional pools.
 
 
-#### Additional Considerations
+### Additional Considerations
 - Should Rocket Pool attain 22% of all staked ETH, it could promote traditional RPL-bonded minipools by adjusting rewards: reducing those for NRBMs and enhancing for RPL-backed pools. Additionally, traditional minipools could be prioritized in creation queues.
 - The Nodeset model offers a balanced option, presenting a middle ground between NRBM and traditional minipools, with potentially higher rewards than NRBM but more associated risks, and lower rewards but less risk compared to traditional RPL-backed pools (if you fear RPL risk more than smart contract risk). 
 - Ultimately, the protocol should aim for simplicity, with enhanced flexibility in commissions, collateral, and bonds for optimal performance. This new minipool variant should not hinder such developments.
