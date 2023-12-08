@@ -1,6 +1,6 @@
 # no-rpl-bonded-minipools
 
-This document explores the introduction of No RPL Bonded Minipools (NRBMs) within the Rocket Pool ecosystem, assessing their potential impact and viability. Our focus is on the integration of NRBMs as a complementary feature to the existing minipool system, without overhauling the current infrastructure. This approach aligns with Lido's strategy of utilizing stETH for Node Operators (NOs) and aims to enhance the Rocket Pool network's efficiency and competitiveness. The proposal includes a detailed analysis of various commission structures, the resultant impact on APR for different stakeholders (rETH holders, effective RPL stakers, and NOs), and the broader implications for the network's stability and growth. The proposed system is designed to attract additional NOs, offer competitive rewards, and maintain a balance between traditional and NRBM staking methods, ensuring a robust and diverse staking environment.
+This document explores the introduction of No RPL Bonded Minipools (NRBMs) within the Rocket Pool ecosystem, assessing their potential impact and viability. Our focus is on the integration of NRBMs as a complementary feature to the existing minipool system, without overhauling the current infrastructure. This approach aligns with Lido's strategy of only utilizing stETH for collateral and aims to enhance the Rocket Pool network's efficiency and competitiveness. This document includes an analysis of various commission structures, the resultant impact on APR for different stakeholders (rETH holders, effective RPL stakers and NOs), and the broader implications for the network's stability and growth. The proposed system is designed to attract additional NOs, offer competitive rewards, and maintain a balance between traditional and NRBM staking methods, ensuring a robust and diverse staking environment.
 
 
 ## Idea
@@ -8,7 +8,7 @@ This document explores the introduction of No RPL Bonded Minipools (NRBMs) withi
 - Maintain the existing system, bonding minipools with RPL, to stabilize the network and capitalize on the recent RPIP-30 protocol alignment benefits.
 - Prevent burns that reward unstaked RPL, ensuring rewards are limited to active minipool contributors.
 - Enhance the rETH Annual Percentage Rate (APR).
-- Offer extra incentives to Node Operators (NOs) holding staked RPL, akin to the smoothing pool, boosting minipool creation and reinforcing RPL's value.
+- Offer extra incentives to NOs holding staked RPL, akin to the smoothing pool, boosting minipool creation and reinforcing RPL's value.
 
 The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirecting a portion of the rETH commission to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
 
@@ -28,6 +28,13 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
 | Option 3 | 12%              | 7%              | -9%         | 5%             | A mixture from the above     |
 
+### Option 1 - Improvement for Solo Stakers
+| # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
+| ----------- | ----------------- | -------------- | -----------|
+| 2    `2*16ETH`       | 100% | 108%      | 8%  |
+| 4    `4*8ETH`        | 100% | 124%      | 24% | 
+| 8    `8*4ETH`        | 100% | ca. 156%  | 46% |
+| 16   `16*2ETH`       | 100% | ca. 220%  | 120% |
 
 ### Option 2 - Improvement for Solo Stakers
 | # minipools | without NRBMs APR | with NRBMs APR (at 5% rETH commission) | Difference |
@@ -36,13 +43,6 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 | 4    `4*8ETH`        | 100% | 115%      | 15% | 
 | 8    `8*4ETH`        | 100% | ca. 135%  | 35% |
 | 16   `16*2ETH`       | 100% | ca. 175%  | 75% |
-
-| # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
-| ----------- | ----------------- | -------------- | -----------|
-| 2    `2*16ETH`       | 100% | 108%      | 8%  |
-| 4    `4*8ETH`        | 100% | 124%      | 24% | 
-| 8    `8*4ETH`        | 100% | ca. 156%  | 46% |
-| 16   `16*2ETH`       | 100% | ca. 220%  | 120% |
 
 ### Option 2 - Improvement for RPL bonded Minipool Stakers
 | # minipools | without NRBMs APR | with NRBMs APR | Difference |
