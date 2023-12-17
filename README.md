@@ -16,17 +16,17 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 
 | Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
-| 1        | 13%              | 8%              | -13%         | 5%            | Compete with Lido on NRBM commission for NO    |
+| 1        | 13%           | 8%              | -13%         | 5%               | Compete with Lido on NRBM commission for NO    |
 
 
 | Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
-| 2        | 10%              | 5%              | -9%         | 5%             | Compete with Lido on rETH APR     |
+| 2        | 10%           | 5%              | -10%         | 5%               | Compete with Lido on rETH APR     |
 
 
 | Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
-| 3        | 12%              | 7%              | -9%         | 5%             | A mixture from the above     |
+| 3        | 12%           | 7%              | -12%         | 5%               | A mixture from the above     |
 
 ### Option 1 - Improvement for Solo Stakers
 | # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
