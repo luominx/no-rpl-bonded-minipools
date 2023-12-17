@@ -1,4 +1,4 @@
-# no-rpl-bonded-minipools
+# No RPL Bonded Minipools
 
 This document explores the introduction of No RPL Bonded Minipools (NRBMs) within the Rocket Pool ecosystem, assessing their potential impact and viability. Our focus is on the integration of NRBMs as a complementary feature to the existing minipool system, without overhauling the current infrastructure. This approach aligns with Lido's strategy of only utilizing stETH for collateral and aims to enhance the Rocket Pool network's efficiency and competitiveness. This document includes an analysis of various commission structures, the resultant impact on APR for different stakeholders (rETH holders, effective RPL stakers and NOs), and the broader implications for the network's stability and growth. The proposed system is designed to attract additional NOs, offer competitive rewards, and maintain a balance between traditional and NRBM staking methods, ensuring a robust and diverse staking environment.
 
