@@ -55,7 +55,7 @@ The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH co
 | 16   `16*2ETH`       | 280% | ca. 355%  | 58% |
 
 
-![Node Operator rewards for varied staking ratios](./no_rewards_varied_staking_ratio.jpg)
+![Node Operator rewards for varied staking ratios](./plots/no_rewards_varied_staking_ratio.jpg)
 
 This plot shows the APR for traditional NOs for variying rations of ETH staked in NRBMs and traditionally staked minipools. (0 -> all in traditional minipools, 1 -> all in NRBMs)
 
