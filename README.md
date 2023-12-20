@@ -5,7 +5,7 @@ This document examines the integration of No RPL Bonded Minipools (NRBMs) into t
 
 ## Idea
 
-The protocol enables NOs to initiate NRBMs, redirecting a portion of the NRBM rewards to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
+The protocol enables Node Operators (NOs) to launch No RPL Bonded Minipools (NRBMs), which in turn channel a portion of the NRBM rewards into a pool similar to the smoothing pool. This pool subsequently distributes rewards among RPL holders who are actively staking.
 
 - Itruoduction of a new minipool type which only require ETH collateral but no RPL bond for slightly redued rewards.
 - Increase rewards for traditional Rocket Pool NOs with effectively staked RPL with rewards being collected from NRBMs into a smoothing pool-type  from where the rewards get distributed to traditional NOs.
