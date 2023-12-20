@@ -1,17 +1,18 @@
 # No RPL Bonded Minipools
 
-This document examines the integration of No RPL Bonded Minipools (NRBMs) into the Rocket Pool ecosystem, focusing on their potential impact and viability without overhauling the existing minipool system. The approach mirrors Lido's use of stETH as collateral and aims to boost Rocket Pool's efficiency and competitiveness. The analysis covers commission structures, their effects on APR for rETH holders, effective RPL stakers, and Node Operators (NOs), and the broader network implications. The proposal aims to attract more NOs, provide competitive rewards, and balance traditional and NRBM staking, promoting a diverse and robust staking environment.
+This document examines the integration of No RPL Bonded Minipools (NRBMs) into the Rocket Pool ecosystem, focusing on their potential impact and viability without overhauling the existing minipool system. The approach aims to boost Rocket Pool's efficiency and competitiveness. The analysis covers commission structures, their effects on APR for rETH holders, effective RPL stakers, and Node Operators (NOs), and the broader network implications. The proposal aims to attract more NOs, provide competitive rewards, and balance traditional and NRBM staking, promoting a diverse and robust staking environment.
 
 
 ## Idea
 
+The protocol enables NOs to initiate NRBMs, redirecting a portion of the NRBM rewards to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
+
 - Itruoduction of a new minipool type which only require ETH collateral but no RPL bond for slightly redued rewards.
-- Prevent burns that reward unstaked RPL, ensuring rewards are limited to active minipool contributors.
-- Increase rewards for traditionalr Rocket Pool stakers with effectively staked RPL.
+- Increase rewards for traditional Rocket Pool NOs with effectively staked RPL with rewards being collected from NRBMs into a smoothing pool-type  from where the rewards get distributed to traditional NOs.
 - Enhance the rETH APR.
 - Maintain the existing system, bonding minipools with RPL, to stabilize the network and capitalize on the recent RPIP-30 protocol alignment benefits.
+- Prevent burns that reward unstaked RPL, ensuring rewards are limited to active minipool contributors.
 
-The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH commission to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
 
 (Note: The specified commission rates are illustrative and not finalized. All reward calculations exclude RPL rewards for NOs)
 
@@ -60,10 +61,13 @@ The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH co
 This plot shows the APR for traditional NOs for variying rations of ETH staked in NRBMs and traditionally staked minipools. (0 -> all in traditional minipools, 1 -> all in NRBMs)
 You can get an iteractive version of this plot by running `nrbm-stakign-rewards.ipynb` yourself or by opening `./plots/eth_staking_rewards_interactive.html` in your browser.
 
+
 ### Additional Protocol Benefits
-- NOs utilizing NRBMs gain enhanced rewards compared to solo stakers, benefiting from community support and additional features, potentially including complimentary DVT.
+- NOs utilizing NRBMs gain enhanced rewards compared to solo stakers, benefiting from community support and additional features.
 - This model attracts a distinct segment of NOs who, while not engaging with RPL, seek to leverage Rocket Pool's advantages, accepting a marginally lower APR.
 - Exposure to the system's robustness, community ethos, and perks may encourage these new NOs to eventually transition to conventional minipools.
+- The RPL token is cemented further as a token to unlock higher staking rewards which should strengthen its value proposition.
+
 
 
 ### Additional Considerations
