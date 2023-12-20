@@ -11,7 +11,7 @@ This document examines the integration of No RPL Bonded Minipools (NRBMs) into t
 - Enhance the rETH APR.
 - Maintain the existing system, bonding minipools with RPL, to stabilize the network and capitalize on the recent RPIP-30 protocol alignment benefits.
 
-The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirecting a portion of the rETH commission to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
+The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH commission to a pool akin to the smoothing pool. This pool then allocates rewards to actively staked RPL holders.
 
 (Note: The specified commission rates are illustrative and not finalized. All reward calculations exclude RPL rewards for NOs)
 
@@ -28,6 +28,7 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 | Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
 | -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
 | 3        | 12%           | 7%              | -12%         | 5%               | A mixture from the above     |
+
 
 ### Option 1 - Improvement for Solo Stakers
 | # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
@@ -55,6 +56,7 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 
 
 ![Node Operator rewards for varied staking ratios](./no_rewards_varied_staking_ratio.jpg)
+This plot shows the APR for traditional NOs for variying rations of ETH staked in NRBMs and traditionally staked minipools. (0 -> all in traditional minipools, 1 -> all in NRBMs)
 
 
 ### Additional Protocol Benefits
