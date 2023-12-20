@@ -15,24 +15,24 @@ The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH co
 
 (Note: The specified commission rates are illustrative and not finalized. All reward calculations exclude RPL rewards for NOs)
 
-| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes                                          |
+| -------- | ------------- | --------------- | ------------ | ---------------- | ---------------------------------------------- |
 | 1        | 13%           | 8%              | -13%         | 5%               | Compete with Lido on NRBM commission for NO    |
 
 
-| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes                             |
+| -------- | ------------- | --------------- | ------------ | ---------------- | --------------------------------- |
 | 2        | 10%           | 5%              | -10%         | 5%               | Compete with Lido on rETH APR     |
 
 
-| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes |
-| -------- | ------------- | --------------- | ------------ | ---------------- | ----- |
+| Option   | NO Commission | NRBM NO         | rETH Holders | eff. RPL Stakers | Notes                        |
+| -------- | ------------- | --------------- | ------------ | ---------------- | ---------------------------- |
 | 3        | 12%           | 7%              | -12%         | 5%               | A mixture from the above     |
 
 
 ### Option 1 - Improvement for Solo Stakers
 | # minipools | without NRBMs APR | with NRBMs APR (at 8% rETH commission) | Difference |
-| ----------- | ----------------- | -------------- | -----------|
+| ----------- | ----------------- | -------------------------------------- | -----------|
 | 2    `2*16ETH`       | 100% | 108%      | 8%  |
 | 4    `4*8ETH`        | 100% | 124%      | 24% | 
 | 8    `8*4ETH`        | 100% | ca. 156%  | 46% |
@@ -40,7 +40,7 @@ The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH co
 
 ### Option 2 - Improvement for Solo Stakers
 | # minipools | without NRBMs APR | with NRBMs APR (at 5% rETH commission) | Difference |
-| ----------- | ----------------- | -------------- | -----------|
+| ----------- | ----------------- | -------------------------------------- | -----------|
 | 2    `2*16ETH`       | 100% | 105%      | 5%  |
 | 4    `4*8ETH`        | 100% | 115%      | 15% | 
 | 8    `8*4ETH`        | 100% | ca. 135%  | 35% |
@@ -58,7 +58,7 @@ The protocol enables NOs to initiate NRBMs, redirecting a portion of the rETH co
 ![Node Operator rewards for varied staking ratios](./plots/no_rewards_varied_staking_ratio.jpg)
 
 This plot shows the APR for traditional NOs for variying rations of ETH staked in NRBMs and traditionally staked minipools. (0 -> all in traditional minipools, 1 -> all in NRBMs)
-
+You can get an iteractive version of this plot by running `nrbm-stakign-rewards.ipynb` yourself or by opening `./plots/eth_staking_rewards_interactive.html` in your browser.
 
 ### Additional Protocol Benefits
 - NOs utilizing NRBMs gain enhanced rewards compared to solo stakers, benefiting from community support and additional features, potentially including complimentary DVT.
