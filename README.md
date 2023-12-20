@@ -54,7 +54,7 @@ The protocol enables NOs to initiate No RPL Bonded Minipools (NRBMs), redirectin
 | 16   `16*2ETH`       | 280% | ca. 355%  | 58% |
 
 
-![Node Operator rewards for varied staking ratios](./no-rewards-varied-staking-ratio.jpeg)
+![Node Operator rewards for varied staking ratios](./no_rewards_varied_staking_ratio.jpg)
 
 
 ### Additional Protocol Benefits
